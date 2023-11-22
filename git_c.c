@@ -22,11 +22,14 @@ int main(){
 		printf("A\n");
         printf("congratulations!!!");
 	}
-	else if (grade<75 && 55<grade) {
+	else if (grade<75 && 65<grade) {
 		printf("B");
 	}
-	else if (grade<55 && 35<grade){
+	else if (grade<65 && 45<grade){
 		printf("C");
+	}
+	else if ( grade<45 && grade >35){
+		printf("D");
 	}
 	else if (grade<35){
 		printf("F");
