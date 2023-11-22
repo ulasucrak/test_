@@ -24,6 +24,7 @@ int main(){
 	}
 	else if (grade<75 && 65<grade) {
 		printf("B");
+		printf("Good Job");
 	}
 	else if (grade<65 && 45<grade){
 		printf("C");
