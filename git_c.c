@@ -11,6 +11,7 @@ int main(){
 
 	if(grade<45){
 		printf("you failed course\n");
+		printf("Better luck next time");
 
 	}
 	else {
@@ -28,6 +29,7 @@ int main(){
 	}
 	else if (grade<65 && 45<grade){
 		printf("C");
+
 	}
 	else if ( grade<45 && grade >35){
 		printf("D");
